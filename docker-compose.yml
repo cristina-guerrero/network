@@ -1,57 +1,55 @@
-version: '3.8'
-
 services:
   frio1:
-    image: alpine
+    image: alpine:3.22
     container_name: frio1
     networks:
       - red-frio
     command: tail -f /dev/null
 
   frio2:
-    image: alpine
+    image: alpine:3.22
     container_name: frio2
     networks:
       - red-frio
     command: tail -f /dev/null
 
   frio3:
-    image: alpine
+    image: alpine:3.22
     container_name: frio3
     networks:
       - red-frio
     command: tail -f /dev/null
 
   frio4:
-    image: alpine
+    image: alpine:3.22
     container_name: frio4
     networks:
       - red-frio
     command: tail -f /dev/null
 
   cal1:
-    image: alpine
+    image: alpine:3.22
     container_name: cal1
     networks:
       - red-caliente
     command: tail -f /dev/null
 
   cal2:
-    image: alpine
+    image: alpine:3.22
     container_name: cal2
     networks:
       - red-caliente
     command: tail -f /dev/null
 
   cal3:
-    image: alpine
+    image: alpine:3.22
     container_name: cal3
     networks:
       - red-caliente
     command: tail -f /dev/null
 
   cal4:
-    image: alpine
+    image: alpine:3.22
     container_name: cal4
     networks:
       - red-caliente
